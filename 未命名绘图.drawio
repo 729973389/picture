@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T03:45:37.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="s6FfU7EaoedYzJF9tSEa" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T03:55:41.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="8EF3E5cR9st5oQ68kMmn" version="16.2.7" type="github">
   <diagram id="QZnkLcweuWFanzRxHOWm" name="第 1 页">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZrQACukLVdcaF7jgmN23-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;strokeColor=none;" edge="1" parent="1" source="ZrQACukLVdcaF7jgmN23-2" target="ZrQACukLVdcaF7jgmN23-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-2" value="安全生产管理系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZrQACukLVdcaF7jgmN23-3" target="ZrQACukLVdcaF7jgmN23-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-4" value="生产者信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-5" value="板块信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="180" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-6" value="生产过程信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="210" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-7" value="包装信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="130" as="sourcePoint" />
+            <mxPoint x="179.5" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179.5" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrQACukLVdcaF7jgmN23-11" target="ZrQACukLVdcaF7jgmN23-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-11" value="水产品档案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="290" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrQACukLVdcaF7jgmN23-14" value="带追朔码的标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="340" width="115" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
