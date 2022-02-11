@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T05:37:56.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="o6F1nvDrdXt_GXtcDxHD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T05:50:31.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="rNG53mbqbWI1D2Si1jxY" version="16.2.7" type="github">
   <diagram id="QZnkLcweuWFanzRxHOWm" name="第 1 页">
     <mxGraphModel dx="1102" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,10 +46,10 @@
         <mxCell id="ZrQACukLVdcaF7jgmN23-11" value="水产品档案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="125" y="290" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZrQACukLVdcaF7jgmN23-14" value="带追朔码的标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrQACukLVdcaF7jgmN23-14" value="带追溯码的标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="125" y="340" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZrQACukLVdcaF7jgmN23-16" value="质量追朔系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrQACukLVdcaF7jgmN23-16" value="质量追溯系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZrQACukLVdcaF7jgmN23-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -64,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZrQACukLVdcaF7jgmN23-20" value="追朔中心数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZrQACukLVdcaF7jgmN23-20" value="追溯中心数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="320" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZrQACukLVdcaF7jgmN23-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZrQACukLVdcaF7jgmN23-21" target="ZrQACukLVdcaF7jgmN23-20">
@@ -124,7 +124,7 @@
         <mxCell id="ZrQACukLVdcaF7jgmN23-43" value="产品&lt;br&gt;信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZrQACukLVdcaF7jgmN23-44" value="追朔码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZrQACukLVdcaF7jgmN23-44" value="追溯码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="190" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
