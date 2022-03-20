@@ -1,1 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T11:35:04.810Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="ezsml_2FAK3IhezVmBIm" type="github"><diagram id="C1zNBywm-0jTYfOO4N1k">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-20T11:51:13.684Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_zD0wja0OuGOh8tW4KYy" version="17.1.3" type="github">
+  <diagram id="C1zNBywm-0jTYfOO4N1k" name="Page-1">
+    <mxGraphModel dx="716" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="60" as="sourcePoint" />
+            <mxPoint x="80" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-2" value="生产" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hwku90U4vkX3QJ_f0BGV-1">
+          <mxGeometry x="0.1842" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hwku90U4vkX3QJ_f0BGV-4" target="hwku90U4vkX3QJ_f0BGV-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="80" />
+              <mxPoint x="190" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-4" value="养殖或捕捞" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="hwku90U4vkX3QJ_f0BGV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="90" as="sourcePoint" />
+            <mxPoint x="140" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hwku90U4vkX3QJ_f0BGV-6" target="hwku90U4vkX3QJ_f0BGV-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="160" />
+              <mxPoint x="190" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-6" value="出库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.75999999999996" y="170" as="sourcePoint" />
+            <mxPoint x="140" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-21" value="水产品验收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hwku90U4vkX3QJ_f0BGV-8">
+          <mxGeometry x="0.3795" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80.00000000000011" y="190" as="sourcePoint" />
+            <mxPoint x="80.00000000000011" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-10" value="物流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hwku90U4vkX3QJ_f0BGV-9">
+          <mxGeometry x="0.1842" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hwku90U4vkX3QJ_f0BGV-12" target="hwku90U4vkX3QJ_f0BGV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-12" value="入库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hwku90U4vkX3QJ_f0BGV-13" target="hwku90U4vkX3QJ_f0BGV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-13" value="出库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.49;entryY=-0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hwku90U4vkX3QJ_f0BGV-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.66" y="240" as="sourcePoint" />
+            <mxPoint x="139.66" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.66" y="300" as="sourcePoint" />
+            <mxPoint x="140" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-18" value="进货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hwku90U4vkX3QJ_f0BGV-15">
+          <mxGeometry x="0.345" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-38" value="运输" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="hwku90U4vkX3QJ_f0BGV-15">
+          <mxGeometry x="-0.6057" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-19" value="市场" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="60" as="sourcePoint" />
+            <mxPoint x="40" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="60" as="sourcePoint" />
+            <mxPoint x="380" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-23" value="&lt;font style=&quot;font-size: 10px&quot;&gt;水生物来源&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-25" value="产地信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="110" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-27" value="渔事操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="110" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-28" value="&lt;font size=&quot;1&quot;&gt;.......&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="130" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-29" value="&lt;font style=&quot;font-size: 10px&quot;&gt;卫生清理信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="210" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-30" value="公司信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="230" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="250" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-32" value="环境信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-33" value="&lt;font size=&quot;1&quot;&gt;.......&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="270" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-34" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwku90U4vkX3QJ_f0BGV-44" value="鲜活水产品流通追溯监管系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="20" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
