@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T09:54:07.056Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="v0OrMqlVYOcsg6Qmm8y_" type="github"><diagram id="79G_k1Tmu2qHtZzNpedg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-21T10:01:19.430Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="hDMtfQcLSufmsWAXwvfa" version="17.1.3" type="github">
+  <diagram id="79G_k1Tmu2qHtZzNpedg" name="第 1 页">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6rlM2ezgQHZbK0_VQlaR-1" target="6rlM2ezgQHZbK0_VQlaR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6rlM2ezgQHZbK0_VQlaR-1" target="6rlM2ezgQHZbK0_VQlaR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6rlM2ezgQHZbK0_VQlaR-1" target="6rlM2ezgQHZbK0_VQlaR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;物流管理模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-2" value="物流状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-3" value="物流记录" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="385" y="140" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6rlM2ezgQHZbK0_VQlaR-4" target="6rlM2ezgQHZbK0_VQlaR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6rlM2ezgQHZbK0_VQlaR-4" target="6rlM2ezgQHZbK0_VQlaR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-4" value="人员管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-5" value="人员库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6rlM2ezgQHZbK0_VQlaR-6" value="更改密码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="30" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
