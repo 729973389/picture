@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T12:09:37.118Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="kkFsfcB4zV_d5IYcbHDo" type="github"><diagram id="GjS3ZaNxwYGzngFv86_D">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-22T04:03:59.788Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="x0HxWso0YU4hvyrJfnJq" version="17.1.3" type="github">
+  <diagram id="GjS3ZaNxwYGzngFv86_D" name="第 1 页">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BRiTa04KdtawMAeabkTu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-5" target="BRiTa04KdtawMAeabkTu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-5" target="BRiTa04KdtawMAeabkTu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-5" target="BRiTa04KdtawMAeabkTu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-5" target="BRiTa04KdtawMAeabkTu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-5" target="BRiTa04KdtawMAeabkTu-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;系统管理模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-10" target="BRiTa04KdtawMAeabkTu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-10" target="BRiTa04KdtawMAeabkTu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-10" target="BRiTa04KdtawMAeabkTu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;基地状态&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-13" target="BRiTa04KdtawMAeabkTu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-13" target="BRiTa04KdtawMAeabkTu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;物流状态&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="284" y="140" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-16" target="BRiTa04KdtawMAeabkTu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-16" target="BRiTa04KdtawMAeabkTu-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-16" value="溯源追溯" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-17" value="&lt;span style=&quot;font-size: 18px&quot;&gt;水体环境状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-18" value="&lt;span style=&quot;font-size: 18px&quot;&gt;水生物状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-19" value="&lt;font style=&quot;font-size: 18px&quot;&gt;历史生产记录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-20" value="&lt;span style=&quot;font-size: 18px&quot;&gt;当前物流状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;历史运输信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;正向追踪&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-23" value="&lt;font style=&quot;font-size: 18px&quot;&gt;逆向追溯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-26" target="BRiTa04KdtawMAeabkTu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-26" target="BRiTa04KdtawMAeabkTu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-26" value="&lt;span style=&quot;font-size: 18px&quot;&gt;市场状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-27" value="&lt;font style=&quot;font-size: 18px&quot;&gt;当前市场状态&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-28" value="&lt;font style=&quot;font-size: 18px&quot;&gt;历史销售记录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-29" value="&lt;font style=&quot;font-size: 18px&quot;&gt;当前基地状态&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-32" target="BRiTa04KdtawMAeabkTu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRiTa04KdtawMAeabkTu-32" target="BRiTa04KdtawMAeabkTu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-32" value="人员管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="730" y="140" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-33" value="&lt;font style=&quot;font-size: 18px&quot;&gt;管理人员修改&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BRiTa04KdtawMAeabkTu-34" value="修改密码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="40" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
