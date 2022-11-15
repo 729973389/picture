@@ -1,11 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T09:17:26.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="IZpo3mr7ZXiPrJjJ4oHY" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T02:44:11.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="J6Ci05qhZWJVQIQz06eG" version="20.5.3" type="github">
   <diagram id="t_ZHMAKOfB-Jzqp0-2-7" name="第 1 页">
-    <mxGraphModel dx="1334" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1375" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d5aH4Ba-LhkNAMB_kDqy-1" value="&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;空气暴露对石斑鱼血清生理指标的影响&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="40" width="340" height="40" as="geometry" />
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="d5aH4Ba-LhkNAMB_kDqy-1" target="lnhYDBClP4FOPmQ8MI6j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="d5aH4Ba-LhkNAMB_kDqy-1" target="lnhYDBClP4FOPmQ8MI6j-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="100" />
+              <mxPoint x="735" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="d5aH4Ba-LhkNAMB_kDqy-1" target="lnhYDBClP4FOPmQ8MI6j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="d5aH4Ba-LhkNAMB_kDqy-1" target="lnhYDBClP4FOPmQ8MI6j-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="100" />
+              <mxPoint x="125" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5aH4Ba-LhkNAMB_kDqy-1" value="&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;空气暴露对石斑鱼血清生理指标的影响研究&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-1" target="lnhYDBClP4FOPmQ8MI6j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;血清生化指标&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-3" target="lnhYDBClP4FOPmQ8MI6j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;血清氧化指标&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-4" target="lnhYDBClP4FOPmQ8MI6j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;血清免疫指标&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-5" target="lnhYDBClP4FOPmQ8MI6j-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;血液生理指标&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-4" target="lnhYDBClP4FOPmQ8MI6j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-7" target="lnhYDBClP4FOPmQ8MI6j-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="360" />
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-7" value="红细胞数&lt;br&gt;白细胞数&lt;br&gt;高铁血红蛋白含量&lt;br&gt;血红蛋白含量" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="660" y="217.5" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-8" target="lnhYDBClP4FOPmQ8MI6j-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="360" />
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-8" value="&lt;span&gt;溶菌酶活性(&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;LZM)&lt;br&gt;补体(C3、C4)&lt;br&gt;热休克蛋白(HSP90、HSP70)&lt;br&gt;抗体(IgM)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="217.5" width="215" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-9" target="lnhYDBClP4FOPmQ8MI6j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-9" value="过氧化氢酶（CAT）&lt;br&gt;谷胱甘肽 ( GSH )&lt;br&gt;谷胱甘肽过氧化氢酶(GPX)&lt;br&gt;超氧化物歧化酶（SOD）&lt;br&gt;丙二醛（MDA）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="215" y="217.5" width="200" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="lnhYDBClP4FOPmQ8MI6j-10" target="lnhYDBClP4FOPmQ8MI6j-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="360" />
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-10" value="血糖(GLU)&lt;br&gt;甘油三酯(TG)&lt;br&gt;总胆固醇(TCH)&lt;br&gt;总蛋白(TP)&lt;br&gt;白蛋白(ALB)&lt;br&gt;皮质醇(COR)&lt;br&gt;谷丙转氨酶(ALT) &lt;br&gt;谷草转氨酶(AST)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="45" y="185" width="160" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="lnhYDBClP4FOPmQ8MI6j-19" value="&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;选择空气暴露最适宜的时间段&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="400" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
