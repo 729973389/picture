@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T03:19:58.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.0" etag="CUKNj58ZOG26BFqSKCMI" type="github"><diagram id="uEwwKUS6wtnq7lLBXoUs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-11T03:27:29.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.0" etag="447DAQD2lakw3wGF9HuX" type="github">
+  <diagram id="Z3HMZwm4Lf5aDZytDULp" name="第 1 页">
+    <mxGraphModel dx="1162" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-4" target="DoKRRUxcZiNmBHX9YYFx-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="80" />
+              <mxPoint x="205" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-4" target="DoKRRUxcZiNmBHX9YYFx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-4" target="DoKRRUxcZiNmBHX9YYFx-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="80" />
+              <mxPoint x="684" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-4" value="日本真鲈生理生化采样" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="309" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-6" target="DoKRRUxcZiNmBHX9YYFx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-6" value="抗氧化、免疫指标" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-8" target="DoKRRUxcZiNmBHX9YYFx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-8" value="消化酶" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="389.5" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="DoKRRUxcZiNmBHX9YYFx-10" target="DoKRRUxcZiNmBHX9YYFx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-10" value="血清生化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="120" width="108.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-11" value="超氧化物歧化酶（SOD）&lt;br&gt;丙二醛（MDA）&lt;br&gt;过氧化物酶（CAT）&lt;br&gt;总抗氧化能力（T-AOC）&lt;br&gt;补体蛋白3（C3）&lt;br&gt;溶菌酶（LZM）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;arcSize=25;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-12" value="胰蛋白酶（TPS）&lt;br&gt;脂肪酶（LPS）&lt;br&gt;淀粉酶（AMS）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="275" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DoKRRUxcZiNmBHX9YYFx-13" value="髓过氧化物酶（MPO）&lt;br&gt;高密度脂蛋白胆固醇（HDL-C）&lt;br&gt;低密度脂蛋白胆固醇（LDL-C）&lt;br&gt;皮质醇（Cortisol）&lt;br&gt;5-羟色胺（5-HT）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="542" y="270" width="285.5" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
