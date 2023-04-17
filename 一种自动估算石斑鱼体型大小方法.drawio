@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T08:03:58.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" version="20.8.3" etag="4CHBC1z3eOWeKJGg_--t" type="github"><diagram id="0v0JiE-OsnFnxYerT32t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-17T08:12:19.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" version="20.8.3" etag="Gs0z96UUHGY5tZzw2-cX" type="github">
+  <diagram id="RCxopiRONtGBBYE8rwKr" name="第 1 页">
+    <mxGraphModel dx="968" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gUSeLqHoIDdgRjf-Up1d-2" target="gUSeLqHoIDdgRjf-Up1d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;获取目标图像，所述目标图像采集设备包括摄像头，摄像机，相机，扫描仪和其他带有拍照功能的设备（手机、平板电脑等）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" source="gUSeLqHoIDdgRjf-Up1d-6" target="gUSeLqHoIDdgRjf-Up1d-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gUSeLqHoIDdgRjf-Up1d-6" target="gUSeLqHoIDdgRjf-Up1d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-6" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;对所述目标图像进行预处理后导入所述图像识别模型中，得到目标图像的语义分割图&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gUSeLqHoIDdgRjf-Up1d-7" target="gUSeLqHoIDdgRjf-Up1d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;将所述的语义分割图根据固定参照物尺寸导入自适应尺寸矫正算法得到鱼身面积、鱼身高度、鱼的体长的形态数据。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gUSeLqHoIDdgRjf-Up1d-8" target="gUSeLqHoIDdgRjf-Up1d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;将所述的形态数据导入体重预测模型中，以得到目标图像中石斑鱼的预测体重。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;将所述预测体重数据输出到终端。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="130" as="sourcePoint" />
+            <mxPoint x="710" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="50" as="sourcePoint" />
+            <mxPoint x="710" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="210" as="sourcePoint" />
+            <mxPoint x="710" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint" />
+            <mxPoint x="710" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="360" as="sourcePoint" />
+            <mxPoint x="710" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-29" value="S1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="703" y="25" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-30" value="S2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="702" y="106" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-31" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="703" y="185" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-32" value="S4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="701" y="264" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gUSeLqHoIDdgRjf-Up1d-33" value="S5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="702" y="336" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
