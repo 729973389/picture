@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T02:17:32.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" version="21.1.8" etag="NJz5AjZdXAA2KMNec71c" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T02:19:25.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="BiVCuUtiUjypa9_oauOq" version="21.1.8" type="github">
   <diagram name="第 1 页" id="rS0eEQ0UfHnmXU5MemY8">
-    <mxGraphModel>
+    <mxGraphModel dx="1617" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WVn1ikJgalT_SjM97Qs--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="WVn1ikJgalT_SjM97Qs--2" target="WVn1ikJgalT_SjM97Qs--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将所述的语义分割图导入自适应尺寸矫正算法。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="WVn1ikJgalT_SjM97Qs--5" target="WVn1ikJgalT_SjM97Qs--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVn1ikJgalT_SjM97Qs--5" target="WVn1ikJgalT_SjM97Qs--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;所述的尺寸矫正算法通过OpenCv工具颜色筛选过滤鱼鳍部位，并通过轮廓查找，得到鱼身轮廓和鱼尾轮廓，计算鱼身的轮廓面积，通过最小矩形框工具将鱼身轮廓框起得到鱼身的高度。通过鱼身轮廓与鱼尾轮廓的两个交界点得到鱼身上半轮廓和下半轮廓。通过上下轮廓得到一条可弯曲的鱼身的中间线作为鱼的体长。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="210" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="100" as="sourcePoint" />
+            <mxPoint x="680" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--8" value="S31" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="668" y="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--9" value="S32" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="668" y="184" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将所述的参照物的真实尺寸与测量尺寸的比值作为鱼图像尺寸校正因子，对所述的鱼身长度、鱼身面积、鱼身高度通过鱼图像尺寸校正因子得到其测量尺寸。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="325" as="sourcePoint" />
+            <mxPoint x="680" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVn1ikJgalT_SjM97Qs--16" value="S33" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="668" y="300" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
