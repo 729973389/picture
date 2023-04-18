@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T02:25:07.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" version="21.1.8" etag="gkvTWjsJtdc3WbsVB3VT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T02:27:12.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="lBoF4ftl7hbzjPoiQ-Dk" version="21.1.8" type="github">
   <diagram name="第 1 页" id="KLSET6l2aXajCBJMPk6t">
-    <mxGraphModel>
+    <mxGraphModel dx="1617" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iUuydrj1AHPohP9aR3aL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="iUuydrj1AHPohP9aR3aL-2" target="iUuydrj1AHPohP9aR3aL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将所述的形态数据导入到已训练好的多元线性回归算法中。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="iUuydrj1AHPohP9aR3aL-5" target="iUuydrj1AHPohP9aR3aL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;利用所述的多元线性回归算法预测目标图像中的石斑鱼的体重。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="180" as="sourcePoint" />
+            <mxPoint x="680" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="100" as="sourcePoint" />
+            <mxPoint x="680" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-8" value="S41" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="668" y="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuydrj1AHPohP9aR3aL-9" value="S42" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="668" y="157" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
