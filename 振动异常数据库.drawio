@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="" style="swimlane;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="120" y="60" width="620" height="560" as="geometry" />
+          <mxGeometry x="120" y="60" width="620" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3" value="device_A_vibration_data" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" parent="2" vertex="1">
           <mxGeometry x="-10" y="6" width="620" height="30" as="geometry" />
