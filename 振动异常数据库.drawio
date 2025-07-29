@@ -8,55 +8,55 @@
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="2" value="" style="swimlane" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="420" height="710" as="geometry"/>
+          <mxGeometry x="120" y="120" width="620" height="450" as="geometry"/>
         </mxCell>
         <mxCell id="3" value="device_A_vibration_data" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="2">
-          <mxGeometry x="0" y="0" width="420" height="30" as="geometry"/>
+          <mxGeometry x="0" y="0" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="id : BIGINT&#xa;信号采集主键ID" style="text" vertex="1" parent="2">
-          <mxGeometry y="30" width="420" height="30" as="geometry"/>
+        <mxCell id="4" value="id : BIGINT  --  自增主键ID" style="text" vertex="1" parent="2">
+          <mxGeometry y="30" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="5" value="signal_time_ms : BIGINT&#xa;采集时间（毫秒）" style="text" vertex="1" parent="2">
-          <mxGeometry y="60" width="420" height="30" as="geometry"/>
+        <mxCell id="5" value="signal_time_ms : BIGINT  --  采集时间（毫秒）" style="text" vertex="1" parent="2">
+          <mxGeometry y="60" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="signal_time_str : VARCHAR(32)&#xa;采集时间字符串" style="text" vertex="1" parent="2">
-          <mxGeometry y="90" width="420" height="30" as="geometry"/>
+        <mxCell id="6" value="signal_time_str : VARCHAR(32)  --  采集时间字符串" style="text" vertex="1" parent="2">
+          <mxGeometry y="90" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="time_lag : FLOAT&#xa;时间延迟" style="text" vertex="1" parent="2">
-          <mxGeometry y="120" width="420" height="30" as="geometry"/>
+        <mxCell id="7" value="time_lag : FLOAT  --  时间延迟" style="text" vertex="1" parent="2">
+          <mxGeometry y="120" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="length : INT&#xa;采样长度（点数）" style="text" vertex="1" parent="2">
-          <mxGeometry y="150" width="420" height="30" as="geometry"/>
+        <mxCell id="8" value="length : INT  --  采样长度（点数）" style="text" vertex="1" parent="2">
+          <mxGeometry y="150" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="9" value="device_name : VARCHAR(64)&#xa;设备名称" style="text" vertex="1" parent="2">
-          <mxGeometry y="180" width="420" height="30" as="geometry"/>
+        <mxCell id="9" value="device_name : VARCHAR(64)  --  设备名称" style="text" vertex="1" parent="2">
+          <mxGeometry y="180" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="10" value="point_name : VARCHAR(64)&#xa;测点名称" style="text" vertex="1" parent="2">
-          <mxGeometry y="210" width="420" height="30" as="geometry"/>
+        <mxCell id="10" value="point_name : VARCHAR(64)  --  测点名称" style="text" vertex="1" parent="2">
+          <mxGeometry y="210" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="11" value="rms_lube_factor : FLOAT&#xa;润滑因子 RMS" style="text" vertex="1" parent="2">
-          <mxGeometry y="240" width="420" height="30" as="geometry"/>
+        <mxCell id="11" value="rms_lube_factor : FLOAT  --  润滑因子 RMS" style="text" vertex="1" parent="2">
+          <mxGeometry y="240" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="12" value="rms_mid_freq : FLOAT&#xa;中频 RMS" style="text" vertex="1" parent="2">
-          <mxGeometry y="270" width="420" height="30" as="geometry"/>
+        <mxCell id="12" value="rms_mid_freq : FLOAT  --  中频 RMS" style="text" vertex="1" parent="2">
+          <mxGeometry y="270" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="13" value="rms_shock : FLOAT&#xa;冲击 RMS" style="text" vertex="1" parent="2">
-          <mxGeometry y="300" width="420" height="30" as="geometry"/>
+        <mxCell id="13" value="rms_shock : FLOAT  --  冲击 RMS" style="text" vertex="1" parent="2">
+          <mxGeometry y="300" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="14" value="rms_accel : FLOAT&#xa;加速度 RMS" style="text" vertex="1" parent="2">
-          <mxGeometry y="330" width="420" height="30" as="geometry"/>
+        <mxCell id="14" value="rms_accel : FLOAT  --  加速度 RMS" style="text" vertex="1" parent="2">
+          <mxGeometry y="330" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="15" value="health_level : VARCHAR(16)&#xa;健康等级" style="text" vertex="1" parent="2">
-          <mxGeometry y="360" width="420" height="30" as="geometry"/>
+        <mxCell id="15" value="health_level : VARCHAR(16)  --  健康等级" style="text" vertex="1" parent="2">
+          <mxGeometry y="360" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="16" value="fault_result : VARCHAR(255)&#xa;故障诊断结果" style="text" vertex="1" parent="2">
-          <mxGeometry y="390" width="420" height="30" as="geometry"/>
+        <mxCell id="16" value="fault_result : VARCHAR(255)  --  故障诊断结果" style="text" vertex="1" parent="2">
+          <mxGeometry y="390" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="17" value="is_push_alarm : TINYINT(1)&#xa;是否推送报警" style="text" vertex="1" parent="2">
-          <mxGeometry y="420" width="420" height="30" as="geometry"/>
+        <mxCell id="17" value="is_push_alarm : TINYINT(1)  --  是否推送报警" style="text" vertex="1" parent="2">
+          <mxGeometry y="420" width="620" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="18" value="is_send_lubrication_cmd : TINYINT(1)&#xa;是否下发加油指令" style="text" vertex="1" parent="2">
-          <mxGeometry y="450" width="420" height="30" as="geometry"/>
+        <mxCell id="18" value="is_send_lubrication_cmd : TINYINT(1)  --  是否下发加油指令" style="text" vertex="1" parent="2">
+          <mxGeometry y="450" width="620" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
