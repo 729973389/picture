@@ -13,7 +13,7 @@
 
         <!-- 字段列表背景 -->
         <mxCell id="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="380" height="670" as="geometry"/>
+          <mxGeometry x="20" y="60" width="380" height="650" as="geometry"/>
         </mxCell>
 
         <!-- 字段：id -->
