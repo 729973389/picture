@@ -1,113 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2025-08-05T11:30:00.000Z" agent="5.0 (Windows)" etag="abcdef123456" version="20.1.3" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="diagram_1" name="表结构-blfj_12">
-    <mxGraphModel dx="1114" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1546" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        
-        <!-- 表名实体框 -->
-        <mxCell id="2" value="表：blfj_12 （振动特征数据表）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="380" height="40" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="表：设备名 （振动特征数据表）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="380" height="40" as="geometry" />
         </mxCell>
-
-        <!-- 字段列表背景 -->
-        <mxCell id="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="380" height="600" as="geometry"/>
+        <mxCell id="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#c0c0c0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="60" width="380" height="600" as="geometry" />
         </mxCell>
-
-        <!-- 字段：id -->
-        <mxCell id="4" value="● id: bigint(20) PK 自增ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" vertex="1" parent="3">
-          <mxGeometry x="10" y="5" width="360" height="20" as="geometry"/>
+        <mxCell id="4" value="● id: bigint(20) PK 自增ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" parent="3" vertex="1">
+          <mxGeometry x="10" y="5" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：created_at -->
-        <mxCell id="5" value="created_at: timestamp NOT NULL 入库时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="30" width="360" height="20" as="geometry"/>
+        <mxCell id="5" value="created_at: timestamp NOT NULL 入库时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="30" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：signal_time_ms -->
-        <mxCell id="6" value="signal_time_ms: bigint(20) 信号时间戳 (ms)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="55" width="360" height="20" as="geometry"/>
+        <mxCell id="6" value="signal_time_ms: bigint(20) 信号时间戳 (ms)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="55" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：signal_time_str -->
-        <mxCell id="7" value="signal_time_str: datetime 信号时间字符串" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="80" width="360" height="20" as="geometry"/>
+        <mxCell id="7" value="signal_time_str: datetime 信号时间字符串" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="80" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：time_lag -->
-        <mxCell id="8" value="time_lag: double 时延" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="105" width="360" height="20" as="geometry"/>
+        <mxCell id="8" value="time_lag: double 时延" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="105" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：length -->
-        <mxCell id="9" value="length: int 采样点数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="130" width="360" height="20" as="geometry"/>
+        <mxCell id="9" value="length: int 采样点数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="130" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：device_name -->
-        <mxCell id="10" value="device_name: varchar(100) 设备名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="155" width="360" height="20" as="geometry"/>
+        <mxCell id="10" value="device_name: varchar(100) 设备名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="155" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 字段：point_name -->
-        <mxCell id="11" value="point_name: varchar(100) 点位名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="180" width="360" height="20" as="geometry"/>
+        <mxCell id="11" value="point_name: varchar(100) 点位名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="180" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 以下字段按顺序 -->
-        <mxCell id="12" value="speed_rms: double 速度RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="205" width="360" height="20" as="geometry"/>
+        <mxCell id="12" value="speed_rms: double 速度RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="205" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="acc_rms: double 加速度RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="230" width="360" height="20" as="geometry"/>
+        <mxCell id="13" value="acc_rms: double 加速度RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="230" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="low_rms: double 低频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="255" width="360" height="20" as="geometry"/>
+        <mxCell id="14" value="low_rms: double 低频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="255" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="rotation_rms: double 转频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="280" width="360" height="20" as="geometry"/>
+        <mxCell id="15" value="rotation_rms: double 转频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="280" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="harmonics_rms: double 谐频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="305" width="360" height="20" as="geometry"/>
+        <mxCell id="16" value="harmonics_rms: double 谐频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="305" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="en_rotation: double 包络转频因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="330" width="360" height="20" as="geometry"/>
+        <mxCell id="17" value="en_rotation: double 包络转频因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="330" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="median_rms: double 中频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="355" width="360" height="20" as="geometry"/>
+        <mxCell id="18" value="median_rms: double 中频RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="355" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="mesh_rms: double 啮合RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="380" width="360" height="20" as="geometry"/>
+        <mxCell id="19" value="mesh_rms: double 啮合RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="380" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="impact_rms: double 冲击RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="405" width="360" height="20" as="geometry"/>
+        <mxCell id="20" value="impact_rms: double 冲击RMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="405" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="factor_lub: double 润滑因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="430" width="360" height="20" as="geometry"/>
+        <mxCell id="21" value="factor_lub: double 润滑因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="430" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="en_harmonics: double 包络谐频因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="455" width="360" height="20" as="geometry"/>
+        <mxCell id="22" value="en_harmonics: double 包络谐频因子" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="455" width="360" height="20" as="geometry" />
         </mxCell>
-
-        <!-- 设备健康等级 -->
-        <mxCell id="23" value="device_health_level: varchar(20) 设备健康等级" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="480" width="360" height="20" as="geometry"/>
+        <mxCell id="23" value="device_health_level: varchar(20) 设备健康等级" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="480" width="360" height="20" as="geometry" />
         </mxCell>
-        <!-- 故障诊断结果 -->
-        <mxCell id="24" value="fault_diagnosis_result: varchar(255) 故障诊断结果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="505" width="360" height="20" as="geometry"/>
+        <mxCell id="24" value="fault_diagnosis_result: varchar(255) 故障诊断结果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="505" width="360" height="20" as="geometry" />
         </mxCell>
-        <!-- 是否推送报警 -->
-        <mxCell id="25" value="is_alarm_push: tinyint(1) 是否推送报警" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="530" width="360" height="20" as="geometry"/>
+        <mxCell id="25" value="is_alarm_push: tinyint(1) 是否推送报警" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="530" width="360" height="20" as="geometry" />
         </mxCell>
-        <!-- 是否下发加油指令 -->
-        <mxCell id="26" value="is_lubrication_command: tinyint(1) 是否下发加油指令" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" vertex="1" parent="3">
-          <mxGeometry x="10" y="555" width="360" height="20" as="geometry"/>
+        <mxCell id="26" value="is_lubrication_command: tinyint(1) 是否下发加油指令" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="3" vertex="1">
+          <mxGeometry x="10" y="555" width="360" height="20" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
