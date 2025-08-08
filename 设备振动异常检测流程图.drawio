@@ -10,7 +10,7 @@
         <mxCell id="pre_i" value="i. 获取原始数据" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
           <mxGeometry x="20" y="18" width="280" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="pre_ii" value="ii. 提取代表性特征值\n（参考振动分析常见故障）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
+        <mxCell id="pre_ii" value="ii. 提取代表性特征值（参考振动分析常见故障）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
           <mxGeometry x="20" y="66" width="280" height="56" as="geometry" />
         </mxCell>
         <mxCell id="pre_iii" value="iii. 将特征值存入数据库（测点信息/特征/健康等级/告警/加油指令等）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
