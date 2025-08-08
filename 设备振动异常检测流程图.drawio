@@ -1,103 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2025-08-08T00:00:00.000Z" agent="5.0 (compatible)" etag="W/&quot;1&quot;" version="20.0.8" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="diagram-1" name="振动润滑检测流程">
-    <mxGraphModel dx="1207" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- Title -->
-        <mxCell id="title" value="设备振动润滑检测流程" style="text;html=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="260" y="20" width="380" height="30" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pre_container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FF;strokeColor=#6CA0FF" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="320" height="260" as="geometry" />
         </mxCell>
-
-        <!-- Preprocessing module container -->
-        <mxCell id="pre_container" value="预处理模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FF;strokeColor=#6CA0FF" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="320" height="260" as="geometry"/>
+        <mxCell id="pre_i" value="i. 获取原始数据" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
+          <mxGeometry x="20" y="18" width="280" height="36" as="geometry" />
         </mxCell>
-
-        <!-- Preprocessing children -->
-        <mxCell id="pre_i" value="i. 获取原始数据" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="pre_container">
-          <mxGeometry x="20" y="18" width="280" height="36" as="geometry"/>
+        <mxCell id="pre_ii" value="ii. 提取代表性特征值\n（参考振动分析常见故障）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
+          <mxGeometry x="20" y="66" width="280" height="56" as="geometry" />
         </mxCell>
-
-        <mxCell id="pre_ii" value="ii. 提取代表性特征值\n（参考振动分析常见故障）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="pre_container">
-          <mxGeometry x="20" y="66" width="280" height="56" as="geometry"/>
+        <mxCell id="pre_iii" value="iii. 将特征值存入数据库（测点信息/特征/健康等级/告警/加油指令等）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
+          <mxGeometry x="20" y="134" width="280" height="66" as="geometry" />
         </mxCell>
-
-        <mxCell id="pre_iii" value="iii. 将特征值存入数据库\n（测点信息/特征/健康等级/告警/加油指令）" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="pre_container">
-          <mxGeometry x="20" y="134" width="280" height="66" as="geometry"/>
+        <mxCell id="pre_iv" value="iv. 获取最近时间段（T_recent，如1月）的特征值与参数，传递到诊断模块" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="pre_container" vertex="1">
+          <mxGeometry x="20" y="210" width="280" height="36" as="geometry" />
         </mxCell>
-
-        <mxCell id="pre_iv" value="iv. 获取最近时间段（T_recent，如1月）\n的特征值与参数，传递到诊断模块" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="pre_container">
-          <mxGeometry x="20" y="210" width="280" height="36" as="geometry"/>
+        <mxCell id="diag_container" value="诊断模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E8;strokeColor=#FFB86C" parent="1" vertex="1">
+          <mxGeometry x="420" y="80" width="320" height="220" as="geometry" />
         </mxCell>
-
-        <!-- Diagnosis module container -->
-        <mxCell id="diag_container" value="诊断模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E8;strokeColor=#FFB86C" vertex="1" parent="1">
-          <mxGeometry x="420" y="80" width="320" height="220" as="geometry"/>
+        <mxCell id="diag_i" value="i. 根据各特征值时序与参数评估设备健康" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="diag_container" vertex="1">
+          <mxGeometry x="20" y="18" width="280" height="56" as="geometry" />
         </mxCell>
-
-        <!-- Diagnosis children -->
-        <mxCell id="diag_i" value="i. 根据各特征值时序与参数评估设备健康" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="diag_container">
-          <mxGeometry x="20" y="18" width="280" height="56" as="geometry"/>
+        <mxCell id="diag_ii" value="ii. 根据诊断结果决定是否发出加油指令" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="diag_container" vertex="1">
+          <mxGeometry x="20" y="86" width="280" height="40" as="geometry" />
         </mxCell>
-
-        <mxCell id="diag_ii" value="ii. 根据诊断结果决定是否发出加油指令" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="diag_container">
-          <mxGeometry x="20" y="86" width="280" height="40" as="geometry"/>
+        <mxCell id="diag_iii" value="iii. 评估上次/连续加油效果；若振动仍异常，推送“加油无法恢复”告警" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="diag_container" vertex="1">
+          <mxGeometry x="20" y="138" width="280" height="66" as="geometry" />
         </mxCell>
-
-        <mxCell id="diag_iii" value="iii. 评估上次/连续加油效果；若振动仍异常，推送“加油无法恢复”告警" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="diag_container">
-          <mxGeometry x="20" y="138" width="280" height="66" as="geometry"/>
+        <mxCell id="stat_container" value="统计模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8FFE8;strokeColor=#6CFF8F" parent="1" vertex="1">
+          <mxGeometry x="780" y="90" width="320" height="200" as="geometry" />
         </mxCell>
-
-        <!-- Statistics module container -->
-        <mxCell id="stat_container" value="统计模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8FFE8;strokeColor=#6CFF8F" vertex="1" parent="1">
-          <mxGeometry x="800" y="80" width="320" height="200" as="geometry"/>
+        <mxCell id="stat_i" value="i. 定期统计润滑次数、润滑油量" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="stat_container" vertex="1">
+          <mxGeometry x="20" y="18" width="280" height="40" as="geometry" />
         </mxCell>
-
-        <!-- Statistics children -->
-        <mxCell id="stat_i" value="i. 定期统计润滑次数、润滑油量" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="stat_container">
-          <mxGeometry x="20" y="18" width="280" height="40" as="geometry"/>
+        <mxCell id="stat_ii" value="ii. 统计振动水平、设备运行时长" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="stat_container" vertex="1">
+          <mxGeometry x="20" y="72" width="280" height="40" as="geometry" />
         </mxCell>
-
-        <mxCell id="stat_ii" value="ii. 统计振动水平、设备运行时长" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="stat_container">
-          <mxGeometry x="20" y="72" width="280" height="40" as="geometry"/>
+        <mxCell id="stat_iii" value="iii. 统计设备故障次数，生成报表以便优化" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" parent="stat_container" vertex="1">
+          <mxGeometry x="20" y="126" width="280" height="48" as="geometry" />
         </mxCell>
-
-        <mxCell id="stat_iii" value="iii. 统计设备故障次数，生成报表以便优化" style="rounded=1;whiteSpace=wrap;html=1;spacing=4" vertex="1" parent="stat_container">
-          <mxGeometry x="20" y="126" width="280" height="48" as="geometry"/>
+        <mxCell id="edge_pre_diag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block" parent="1" source="pre_container" target="diag_container" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Connectors: Pre -> Diag -->
-        <mxCell id="edge_pre_diag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block" edge="1" parent="1" source="pre_container" target="diag_container">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge_diag_stat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block" parent="1" source="diag_container" target="stat_container" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Connectors: Diag -> Stat -->
-        <mxCell id="edge_diag_stat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block" edge="1" parent="1" source="diag_container" target="stat_container">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="hWngNg9sLKYZqJ7I8tRK-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;数据预处理模块&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="320" width="110" height="30" as="geometry" />
         </mxCell>
-
-        <!-- Connector: Diag (effect eval) -> Pre (feedback loop) -->
-        <mxCell id="edge_diag_pre_feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#FF6C6C" edge="1" parent="1" source="diag_iii" target="pre_iv">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="hWngNg9sLKYZqJ7I8tRK-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;诊断模块&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="310" width="110" height="30" as="geometry" />
         </mxCell>
-
-        <!-- Notes / annotations -->
-        <mxCell id="note1" value="数据库：测点信息 / 特征 / 健康等级 / 告警 / 加油指令等" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="420" height="30" as="geometry"/>
+        <mxCell id="hWngNg9sLKYZqJ7I8tRK-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;统计模块&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="300" width="110" height="30" as="geometry" />
         </mxCell>
-
-        <mxCell id="note2" value="T_recent: 如最近1个月，用于训练/阈值计算/时序判断" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="420" y="310" width="480" height="30" as="geometry"/>
-        </mxCell>
-
-        <!-- Small legend -->
-        <mxCell id="legend" value="说明：诊断模块可触发加油指令；若加油无效则发严重告警并反馈至预处理/数据库。" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="1080" height="30" as="geometry"/>
-        </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
