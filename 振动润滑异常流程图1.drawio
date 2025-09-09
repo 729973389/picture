@@ -7,7 +7,7 @@
         <mxCell id="2" value="振动数据采集" style="rounded=1;fillColor=#8CC6FF;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="260" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="预处理模块" style="rounded=1;fillColor=#A2D39C;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="3" value="数据预处理模块" style="rounded=1;fillColor=#A2D39C;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="260" y="120" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4" value="特征提取" style="rounded=1;fillColor=#FFE066;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
