@@ -1,78 +1,79 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="振动润滑异常诊断详细流程图" id="detailed_flow">
-    <mxGraphModel dx="1600" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900">
+  <diagram name="振动润滑异常诊断流程图" id="flowchart1">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
+        
         <!-- 振动数据采集 -->
-        <mxCell id="2" value="振动数据采集\n- 每隔T_upload上传" style="rounded=1;fillColor=#8CC6FF;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="2" value="振动数据采集" style="rounded=1;fillColor=#8CC6FF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 预处理模块 -->
-        <mxCell id="3" value="预处理模块\n- 获取原始数据\n- 去噪/归一化\n- 缺失值处理" style="rounded=1;fillColor=#A2D39C;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="40" width="200" height="80" as="geometry" />
+        <mxCell id="3" value="预处理模块" style="rounded=1;fillColor=#A2D39C;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-
-        <!-- 特征提取模块 -->
-        <mxCell id="4" value="特征提取\n- 时域特征: RMS, 峰值\n- 频域特征: FFT, 频带能量\n- 包络谱、滑动窗口统计\n- 设备类型通用" style="rounded=1;fillColor=#FFE066;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="220" height="100" as="geometry" />
+        
+        <!-- 特征提取 -->
+        <mxCell id="4" value="特征提取" style="rounded=1;fillColor=#FFE066;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 数据存储 -->
-        <mxCell id="5" value="数据存储\n- 测点信息\n- 特征值历史\n- 健康等级、故障记录\n- 加油指令记录" style="rounded=1;fillColor=#FFB347;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="740" y="40" width="220" height="100" as="geometry" />
+        <mxCell id="5" value="数据存储" style="rounded=1;fillColor=#FFB347;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 诊断模块 -->
-        <mxCell id="6" value="诊断模块\n- 输入特征值时序数据\n- 评估设备健康状态\n- 判断是否加油" style="rounded=1;fillColor=#FF6961;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="40" width="220" height="100" as="geometry" />
+        <mxCell id="6" value="诊断模块" style="rounded=1;fillColor=#FF6961;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 加油/告警决策 -->
-        <mxCell id="7" value="加油/告警决策\n- 下发加油指令\n- 异常告警\n- 连续加油无效提醒" style="rounded=1;fillColor=#CBAACB;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="40" width="220" height="100" as="geometry" />
+        <mxCell id="7" value="加油/告警决策" style="rounded=1;fillColor=#CBAACB;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="180" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 统计分析 -->
-        <mxCell id="8" value="统计分析\n- 润滑次数、油量\n- 振动水平\n- 故障次数、运行时长" style="rounded=1;fillColor=#79C7E3;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="40" width="220" height="100" as="geometry" />
+        <mxCell id="8" value="统计分析" style="rounded=1;fillColor=#79C7E3;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="40" width="140" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 优化特征与模型 -->
-        <mxCell id="9" value="优化特征与模型\n- 调整特征提取方法\n- 优化诊断模型参数\n- 闭环反馈" style="rounded=1;fillColor=#FDC68A;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="40" width="220" height="100" as="geometry" />
+        <mxCell id="9" value="优化特征与模型" style="rounded=1;fillColor=#FDC68A;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="40" width="180" height="60" as="geometry" />
         </mxCell>
-
+        
         <!-- 箭头连接 -->
         <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="4" target="5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="5" target="6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="6" target="7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="7" target="8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        
         <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="8" target="9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- 闭环箭头 -->
-        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;dashed=1;" edge="1" parent="1" source="9" target="4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-
+        
       </root>
     </mxGraphModel>
   </diagram>
