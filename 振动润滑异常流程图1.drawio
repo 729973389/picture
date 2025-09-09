@@ -5,28 +5,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="振动数据采集" style="rounded=1;fillColor=#8CC6FF;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="预处理模块" style="rounded=1;fillColor=#A2D39C;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="120" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="120" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4" value="特征提取" style="rounded=1;fillColor=#FFE066;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="200" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="200" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5" value="数据存储" style="rounded=1;fillColor=#FFB347;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="280" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="280" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6" value="诊断模块" style="rounded=1;fillColor=#FF6961;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="360" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="加油/告警决策" style="rounded=1;fillColor=#CBAACB;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="440" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8" value="统计分析" style="rounded=1;fillColor=#79C7E3;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="520" width="160" height="55.5" as="geometry" />
+          <mxGeometry x="260" y="520" width="160" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="9" value="优化特征与模型" style="rounded=1;fillColor=#FDC68A;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="600" width="160" height="60" as="geometry" />
+          <mxGeometry x="260" y="600" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
