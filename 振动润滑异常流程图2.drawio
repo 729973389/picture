@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
-  <diagram name="第 1 页" id="lE0-baVhJfgWzLkBfdBm">
-    <mxGraphModel>
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="关键技术与方法流程图" id="flow1">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        
+        <!-- 数据采集 -->
+        <mxCell id="data_collect" value="数据采集" style="rounded=1;fillColor=#8fd3f4;fontSize=14;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 预处理 -->
+        <mxCell id="preprocess" value="预处理模块\n- 获取原始数据\n- 去噪归一化" style="rounded=1;fillColor=#f9e79f;fontSize=12;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 特征提取 -->
+        <mxCell id="feature_extract" value="特征提取\n- 时域特征\n- 频域特征\n- 包络谱等" style="rounded=1;fillColor=#abebc6;fontSize=12;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 数据存储 -->
+        <mxCell id="data_storage" value="数据存储\n- 测点信息\n- 特征值历史\n- 健康状态" style="rounded=1;fillColor=#f5b7b1;fontSize=12;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 诊断 -->
+        <mxCell id="diagnosis" value="诊断模块\n- 评估健康状态\n- 决定加油指令\n- 异常告警" style="rounded=1;fillColor=#d7bde2;fontSize=12;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 统计优化 -->
+        <mxCell id="stat_optimize" value="统计与优化模块\n- 润滑次数/油量\n- 振动水平\n- 持续优化特征与模型" style="rounded=1;fillColor=#fadbd8;fontSize=12;fontColor=#000000;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="630" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头连接 -->
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" source="data_collect" target="preprocess" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" source="preprocess" target="feature_extract" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" source="feature_extract" target="data_storage" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" source="data_storage" target="diagnosis" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" source="diagnosis" target="stat_optimize" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
