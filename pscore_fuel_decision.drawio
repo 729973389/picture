@@ -23,7 +23,7 @@
           <mxGeometry x="260" y="380" width="320" height="100" as="geometry"/>
         </mxCell>
 
-        <mxCell id="b5" value="加油决策树\nPscore >= 7.5?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="b5" value="加油决策树\nPscore &gt;= 7.5?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="260" y="520" width="320" height="60" as="geometry"/>
         </mxCell>
 
@@ -47,11 +47,11 @@
           <mxGeometry x="440" y="840" width="160" height="60" as="geometry"/>
         </mxCell>
 
-        <mxCell id="b9" value="时间间隔处理\n<=6小时?\n是: 报警逻辑   否: 再次加油" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="b9" value="时间间隔处理\n&lt;=6小时?\n是: 报警逻辑   否: 再次加油" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="940" width="320" height="100" as="geometry"/>
         </mxCell>
 
-        <mxCell id="b10" value="报警冷却逻辑\n1. 查最近报警\n2. 计算时间差\n3. >=2小时→允许报警\n4. <2小时→跳过报警" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="b10" value="报警冷却逻辑\n1. 查最近报警\n2. 计算时间差\n3. &gt;=2小时→允许报警\n4. &lt;2小时→跳过报警" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="1080" width="320" height="120" as="geometry"/>
         </mxCell>
 
@@ -59,7 +59,7 @@
           <mxGeometry x="320" y="1240" width="320" height="100" as="geometry"/>
         </mxCell>
 
-        <mxCell id="b12" value="输出结果\n- 筛选显示: 加油指令为1\n- 报警推送为1\n- Pscore >= 7.5" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="b12" value="输出结果\n- 筛选显示: 加油指令为1\n- 报警推送为1\n- Pscore &gt;= 7.5" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="1400" width="320" height="100" as="geometry"/>
         </mxCell>
 
