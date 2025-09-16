@@ -34,14 +34,53 @@
         <mxCell id="b8_hist" value="时间判断" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="810" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b9" target="7HUMgEcsc-lBvq3mgnwt-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1060" />
+              <mxPoint x="1020" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="7HUMgEcsc-lBvq3mgnwt-6">
+          <mxGeometry x="-0.0979" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="b9" value="时间间隔处理&amp;lt;=6小时?&lt;div&gt;是: 报警逻辑   否: 再次加油&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="550" y="940" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="b10" value="报警冷却逻辑&lt;div&gt;1. 查最近报警&lt;/div&gt;&lt;div&gt;2. 计算时间差&lt;/div&gt;&lt;div&gt;3. &amp;gt;=2小时→允许报警&lt;/div&gt;&lt;div&gt;4. &amp;lt;2小时→跳过报警&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="550" y="1080" width="320" height="120" as="geometry" />
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b10" target="7HUMgEcsc-lBvq3mgnwt-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1250" />
+              <mxPoint x="200" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-12" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="7HUMgEcsc-lBvq3mgnwt-10">
+          <mxGeometry x="0.0086" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b10" target="7HUMgEcsc-lBvq3mgnwt-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1250" />
+              <mxPoint x="565" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-13" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="7HUMgEcsc-lBvq3mgnwt-11">
+          <mxGeometry x="-0.0595" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b10" value="报警冷却逻辑&lt;div&gt;1. 查最近报警&lt;/div&gt;&lt;div&gt;2. 计算时间差&lt;/div&gt;&lt;div&gt;报警冷却逻辑：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;=2小时&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1100" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="b11" value="结果更新:&lt;div&gt;1. 更新加油指令&lt;div&gt;2. 更新报警状态&lt;/div&gt;&lt;div&gt;3. 记录Pscore&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="550" y="1240" width="320" height="100" as="geometry" />
+          <mxGeometry x="470" y="1460" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="b1" target="b2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -86,10 +125,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="b9" target="b10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1060" />
+              <mxPoint x="375" y="1060" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="b10" target="b11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-17" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="e12">
+          <mxGeometry x="0.0815" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HUMgEcsc-lBvq3mgnwt-5" target="b11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="1430" />
+              <mxPoint x="630" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-5" value="再次加油" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1110" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7HUMgEcsc-lBvq3mgnwt-8" target="b11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1430" />
+              <mxPoint x="630" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-8" value="跳过报警" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7HUMgEcsc-lBvq3mgnwt-9" target="b11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="1430" />
+              <mxPoint x="630" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HUMgEcsc-lBvq3mgnwt-9" value="允许报警" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1300" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
