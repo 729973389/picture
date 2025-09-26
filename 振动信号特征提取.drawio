@@ -51,7 +51,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9" value="速度RMS &amp; 位移峰峰值 &#xa;Vrms, DISPpp = get_Vrms_and_DISPpp(am_spec, delta_fre)" style="rounded=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="770" y="390" width="440" height="60" as="geometry" />
+          <mxGeometry x="818" y="600" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="10" value="汇总特征字典输出" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="330" y="930" width="180" height="60" as="geometry" />
