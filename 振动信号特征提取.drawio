@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- 包络谱 -->
-        <mxCell id="5" value="包络谱计算 &#10;1. 高频滤波: <500Hz置零 &#10;2. IFFT → filtered_raw &#10;3. Hilbert包络: en_raw &#10;4. FFT(en_raw) → en_spec" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="5" value="包络谱计算 &#10;1. 高频滤波: &lt;500Hz置零 &#10;2. IFFT → filtered_raw &#10;3. Hilbert包络: en_raw &#10;4. FFT(en_raw) → en_spec" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="260" height="120" as="geometry"/>
         </mxCell>
 
@@ -42,12 +42,12 @@
         </mxCell>
 
         <!-- 速度RMS与位移峰峰值 -->
-        <mxCell id="9" value="速度RMS & 位移峰峰值 &#10;Vrms, DISPpp = get_Vrms_and_DISPpp(am_spec, delta_fre)" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="9" value="速度RMS &amp; 位移峰峰值 &#10;Vrms, DISPpp = get_Vrms_and_DISPpp(am_spec, delta_fre)" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="200" y="520" width="200" height="60" as="geometry"/>
         </mxCell>
 
         <!-- 汇总特征 -->
-        <mxCell id="10" value="汇总特征字典输出 &#10;速度RMS, 加速度RMS, 低/中频RMS, 转/谐频RMS, 啮合/冲击RMS, &#10;包络转频, 包络谐频, 润滑因子, Vrms, DISPpp, ... " style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="10" value="汇总特征字典输出 &#10;速度RMS, 加速度RMS, 低/中频RMS, 转/谐频RMS, 啮合/冲击RMS, &#10;包络转频, 包络谐频, 润滑因子, Vrms, DISPpp, ..." style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="350" y="640" width="300" height="100" as="geometry"/>
         </mxCell>
 
