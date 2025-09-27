@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
   <diagram name="Vibration Features Extraction" id="VibFeatures001">
-    <mxGraphModel dx="1819" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="3" value="计算采样率和频率分辨率 &#xa;N=len(amplitude) &#xa;fs=N/time_lag &#xa;delta_fre=1/(N/fs)" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="320" y="60" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="9">
+        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="FFT计算幅值谱与幅值平方谱 &#xa;am_spec = |FFT(raw)|/(N/2) &#xa;am_spec2 = am_spec^2" style="rounded=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="4" value="FFT计算幅值谱与幅值平方谱" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="310" y="220" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" value="包络谱计算 &#xa;1. 高频滤波: &lt;500Hz置零 &#xa;2. IFFT → filtered_raw &#xa;3. Hilbert包络: en_raw &#xa;4. FFT(en_raw) → en_spec" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="290" y="350" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="6" target="10">
+        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="6" target="10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="860" />
@@ -30,7 +30,7 @@
         <mxCell id="6" value="RMS特征 (band_rms) &#xa;低频RMS(5-400Hz) &#xa;中频RMS(400-3500Hz) &#xa;加速度RMS(10-3900Hz) &#xa;转频RMS(5-65Hz) &#xa;谐频RMS(65-400Hz) &#xa;啮合RMS(400-2500Hz) &#xa;冲击RMS(2500-3900Hz)" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="50" y="600" width="220" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="7" target="10">
+        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="7" target="10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="860" />
@@ -41,16 +41,16 @@
         <mxCell id="7" value="润滑因子 Lub (lub) &#xa;2500-6000Hz分段" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="570" y="600" width="240" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="8" target="10">
+        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="8" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8" value="包络谱特征 (band_main) &#xa;包络转频因子(5条主谱线, 5-65Hz) &#xa;包络谐频因子(13条主谱线, 65-1000Hz)" style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="275" y="600" width="290" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="10">
+        <mxCell id="Y_9jRnxH8FlsRHiu7l0G-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="速度RMS &amp; 位移峰峰值 &#xa;Vrms, DISPpp = get_Vrms_and_DISPpp(am_spec, delta_fre)" style="rounded=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="9" value="速度RMS &amp; 位移峰峰值 &#xa;Vrms, DISPpp " style="rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="818" y="600" width="440" height="190" as="geometry" />
         </mxCell>
         <mxCell id="10" value="汇总特征字典输出" style="rounded=1;fontSize=16;" parent="1" vertex="1">
