@@ -22,7 +22,7 @@
         <mxCell id="b6_no" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-330" y="720" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6_yes" value="查历史" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=21;arcSize=15;" parent="1" vertex="1">
+        <mxCell id="b6_yes" value="查历史" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=24;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="710" y="260" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b7" value="最近加油判断有历史记录?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=23;arcSize=15;" parent="1" vertex="1">
@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xeTe30RkIDWQm1bKK1Xm-2" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xeTe30RkIDWQm1bKK1Xm-1">
+        <mxCell id="xeTe30RkIDWQm1bKK1Xm-2" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="xeTe30RkIDWQm1bKK1Xm-1">
           <mxGeometry x="0.181" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
