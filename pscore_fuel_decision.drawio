@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Pscore Workflow" id="0">
-    <mxGraphModel dx="3009" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3036" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b1" value="数据预处理阶段&lt;div&gt;1. 转换时间列&lt;/div&gt;&lt;div&gt;2. 初始化告警标志&lt;/div&gt;&lt;div&gt;3. 初始化平滑值列&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=17;arcSize=15;" parent="1" vertex="1">
+        <mxCell id="b1" value="数据预处理阶段&lt;div&gt;1. 转换时间列&lt;/div&gt;&lt;div&gt;2. 初始化告警标志&lt;/div&gt;&lt;div&gt;3. 初始化平滑值列&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="100" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="b2" value="信号处理阶段-低通滤波" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
+        <mxCell id="b2" value="信号处理阶段-低通滤波" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=20;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="220" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b3" value="历史数据分析&lt;div&gt;- 按测点循环&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 获取新数据&lt;/div&gt;&lt;div&gt;- 读取前3天历史&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
+        <mxCell id="b3" value="历史数据分析&lt;div&gt;- 按测点循环&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 获取新数据&lt;/div&gt;&lt;div&gt;- 读取前3天历史&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=20;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="320" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="b4" value="Pscore计算逻辑:&lt;div&gt;1. 计算中位数&lt;/div&gt;&lt;div&gt;2. 计算四分位距&lt;/div&gt;&lt;div&gt;3. Pscore = (新-中位数)/四分位距&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=18;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="450" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="b5" value="加油决策树&lt;div&gt;Pscore &amp;gt;= 7.5?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
+        <mxCell id="b5" value="加油决策树&lt;div&gt;Pscore &amp;gt;= n?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="620" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b6_no" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="b8_hist" value="时间判断" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=22;arcSize=15;" parent="1" vertex="1">
           <mxGeometry x="1000" y="450" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xeTe30RkIDWQm1bKK1Xm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b9" target="7HUMgEcsc-lBvq3mgnwt-5">
+        <mxCell id="xeTe30RkIDWQm1bKK1Xm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="b9" target="7HUMgEcsc-lBvq3mgnwt-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="790" y="700" />
@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xeTe30RkIDWQm1bKK1Xm-2" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="xeTe30RkIDWQm1bKK1Xm-1">
+        <mxCell id="xeTe30RkIDWQm1bKK1Xm-2" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="xeTe30RkIDWQm1bKK1Xm-1" vertex="1" connectable="0">
           <mxGeometry x="0.181" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -157,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7HUMgEcsc-lBvq3mgnwt-5" value="再次加油" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=19;arcSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1081" y="770" width="160" height="70" as="geometry" />
+          <mxGeometry x="1080" y="770" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Kg48YhDfGZuvcSebHR0R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;arcSize=15;" parent="1" source="7HUMgEcsc-lBvq3mgnwt-8" edge="1">
           <mxGeometry relative="1" as="geometry">
