@@ -98,6 +98,15 @@
         <mxCell id="qNxlKKkJRwl4O8v6aZzR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="50" width="290" x="340" y="540" as="geometry" />
         </mxCell>
+        <mxCell id="qNxlKKkJRwl4O8v6aZzR-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 15px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="279" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qNxlKKkJRwl4O8v6aZzR-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 15px;&quot;&gt;2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="298.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qNxlKKkJRwl4O8v6aZzR-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 15px;&quot;&gt;3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="455" y="550" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
