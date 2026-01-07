@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.10">
-  <diagram name="第 1 页" id="Haw1I_vkFg1RBdLnnYwd">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net">
+  <diagram name="维护流程-并行结构">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+
+        <mxCell id="root" value="维护流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="root" target="soft_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="root" target="link_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="root" target="algo_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="soft_header" value="软件维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="soft_detail" value="- Kafka 是否正常运行&lt;br&gt;- 龙葵系统是否正常运行" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="link_header" value="链路维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="link_detail" value="&lt;b&gt;网络链路：&lt;/b&gt;&lt;br&gt;- 视频流是否联通&lt;br&gt;- OPC服务器是否联通&lt;br&gt;&lt;hr&gt;&lt;b&gt;数据链路：&lt;/b&gt;&lt;br&gt;- Kafka 网络链路正常&lt;br&gt;- MySQL 网络链路正常" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="algo_header" value="算法程序维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="algo_detail" value="- 逻辑代码修改&lt;br&gt;- 功能迭代更新" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
