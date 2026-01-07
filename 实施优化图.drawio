@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. 软件安装配置&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 开发工具：VScode, Git&lt;br&gt;- 数据库：MySQL + 可视化工具&lt;br&gt;- 中间件：Kafka + 可视化工具&lt;br&gt;- 专用软件：ICE-DA, VLC视频软件" vertex="1">
-          <mxGeometry height="110" width="240" x="281" y="130" as="geometry" />
+          <mxGeometry height="110" width="240" x="280" y="130" as="geometry" />
         </mxCell>
         <mxCell id="edge2" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step2">
           <mxGeometry relative="1" as="geometry" />
