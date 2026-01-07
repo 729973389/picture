@@ -1,66 +1,45 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="实施优化流程">
-    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.10">
+  <diagram name="实施优化流程" id="0">
+    <mxGraphModel dx="1288" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        
-        <mxCell id="style_box" value="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=10;spacingTop=10;" style="text" vertex="1" parent="1">
-          <mxGeometry x="0" y="0" width="0" height="0" as="geometry" />
-        </mxCell>
-
-        <mxCell id="start" value="开始实施" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="340" y="40" width="120" height="50" as="geometry" />
-        </mxCell>
-
-        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="start" target="step1">
+        <mxCell id="d5BVnQkl289WMe1_mku3-3" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="step1" value="&lt;b&gt;1. 软件安装配置&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 开发工具：VScode, Git&lt;br&gt;- 数据库：MySQL + 可视化工具&lt;br&gt;- 中间件：Kafka + 可视化工具&lt;br&gt;- 专用软件：ICE-DA, VLC视频软件" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="130" width="240" height="110" as="geometry" />
+        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. 软件安装配置&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 开发工具：VScode, Git&lt;br&gt;- 数据库：MySQL + 可视化工具&lt;br&gt;- 中间件：Kafka + 可视化工具&lt;br&gt;- 专用软件：ICE-DA, VLC视频软件" vertex="1">
+          <mxGeometry height="110" width="240" x="281" y="130" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="step1" target="step2">
+        <mxCell id="edge2" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="step2" value="&lt;b&gt;2. 环境配置&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 基础环境：Miniforge&lt;br&gt;- 依赖安装：算法环境包" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="240" height="80" as="geometry" />
+        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2. 环境配置&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 基础环境：Miniforge&lt;br&gt;- 依赖安装：算法环境包" vertex="1">
+          <mxGeometry height="80" width="240" x="280" y="280" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="step2" target="step3">
+        <mxCell id="edge3" edge="1" parent="1" source="step2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="step3" value="&lt;b&gt;3. 链路调试&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 网络链路：视频流 / OPC服务器 IP联通&lt;br&gt;- 数据链路：MySQL / Kafka 读写测试" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="280" y="400" width="240" height="90" as="geometry" />
+        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3. 链路调试&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 网络链路：视频流 / OPC服务器 IP联通&lt;br&gt;- 数据链路：MySQL / Kafka 读写测试" vertex="1">
+          <mxGeometry height="90" width="240" x="280" y="400" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="step3" target="step4">
+        <mxCell id="edge4" edge="1" parent="1" source="step3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="step4" value="&lt;b&gt;4. 程序部署&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 数据库建表&lt;br&gt;- 数据标签配置和采集&lt;br&gt;- 程序调试运行" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="280" y="530" width="240" height="90" as="geometry" />
+        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4. 程序部署&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 数据库建表&lt;br&gt;- 数据标签配置和采集&lt;br&gt;- 程序调试运行" vertex="1">
+          <mxGeometry height="90" width="240" x="280" y="530" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="step4" target="step5">
+        <mxCell id="edge5" edge="1" parent="1" source="step4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="step5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="step5" value="&lt;b&gt;5. 算法优化调试&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 结果调优" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="280" y="660" width="240" height="60" as="geometry" />
+        <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5. 算法优化调试&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;hr&gt;- 结果调优" vertex="1">
+          <mxGeometry height="60" width="240" x="280" y="660" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="step5" target="end">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d5BVnQkl289WMe1_mku3-1" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="620" width="50" x="210" y="120" as="geometry" />
         </mxCell>
-
-        <mxCell id="end" value="优化完成" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="340" y="760" width="120" height="50" as="geometry" />
+        <mxCell id="d5BVnQkl289WMe1_mku3-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;实施流程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="30" x="170" y="345" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
