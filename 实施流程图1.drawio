@@ -4,25 +4,25 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="soft_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" value="软件维护" vertex="1">
+        <mxCell id="soft_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="软件维护" vertex="1">
           <mxGeometry height="40" width="200" x="320" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="soft_detail" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;fillColor=#d5e8d4;strokeColor=#82b366;" value="- Kafka 是否正常运行&lt;br&gt;- 龙葵系统是否正常运行" vertex="1">
+        <mxCell id="soft_detail" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="- Kafka 是否正常运行&lt;br&gt;- 龙葵系统是否正常运行" vertex="1">
           <mxGeometry height="50" width="200" x="320" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="link_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" value="链路维护" vertex="1">
+        <mxCell id="link_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="链路维护" vertex="1">
           <mxGeometry height="40" width="200" x="320" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="link_detail" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;网络链路：&lt;/b&gt;&lt;br&gt;- 视频流是否联通&lt;br&gt;- OPC服务器是否联通&lt;br&gt;&lt;hr&gt;&lt;b&gt;数据链路：&lt;/b&gt;&lt;br&gt;- Kafka 网络链路正常&lt;br&gt;- MySQL 网络链路正常" vertex="1">
+        <mxCell id="link_detail" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;网络链路：&lt;/b&gt;&lt;br&gt;- 视频流是否联通&lt;br&gt;- OPC服务器是否联通&lt;br&gt;&lt;hr&gt;&lt;b&gt;数据链路：&lt;/b&gt;&lt;br&gt;- Kafka 网络链路正常&lt;br&gt;- MySQL 网络链路正常" vertex="1">
           <mxGeometry height="120" width="200" x="320" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="algo_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="算法程序维护" vertex="1">
+        <mxCell id="algo_header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="算法程序维护" vertex="1">
           <mxGeometry height="40" width="200" x="320" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="algo_detail" parent="1" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" value="&lt;b&gt;运行维护 ：&lt;/b&gt;&lt;br&gt;- 程序是否正常运行" vertex="1">
+        <mxCell id="algo_detail" parent="1" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" value="&lt;b&gt;运行维护 ：&lt;/b&gt;&lt;br&gt;- 程序是否正常运行" vertex="1">
           <mxGeometry height="50" width="200" x="320" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="XYgflJQjI5olfiHOee9O-2" parent="1" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;逻辑维护：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- 逻辑代码修改&lt;/div&gt;&lt;div&gt;- 功能迭代更新&lt;/div&gt;&lt;div&gt;- 算法参数/阈值调优&lt;/div&gt;&lt;div&gt;- 识别效果校准&lt;/div&gt;" vertex="1">
+        <mxCell id="XYgflJQjI5olfiHOee9O-2" parent="1" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;逻辑维护：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- 逻辑代码修改&lt;/div&gt;&lt;div&gt;- 功能迭代更新&lt;/div&gt;&lt;div&gt;- 算法参数/阈值调优&lt;/div&gt;&lt;div&gt;- 识别效果校准&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="200" x="320" y="430" as="geometry" />
         </mxCell>
         <mxCell id="XYgflJQjI5olfiHOee9O-5" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
