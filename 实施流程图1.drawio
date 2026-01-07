@@ -39,9 +39,7 @@
         <mxCell id="algo_detail" value="- 逻辑代码修改&lt;br&gt;- 功能迭代更新" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="560" y="200" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="link_detail" value="&lt;b&gt;网络链路：&lt;/b&gt;&lt;br&gt;- 视频流是否联通&lt;br&gt;- OPC服务器是否联通&lt;br&gt;&lt;hr&gt;&lt;b&gt;数据链路：&lt;/b&gt;&lt;br&gt;- Kafka 网络链路正常&lt;br&gt;- MySQL 网络链路正常" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="200" height="140" as="geometry" />
-        </mxCell>
+     
       </root>
     </mxGraphModel>
   </diagram>
