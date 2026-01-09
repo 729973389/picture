@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="28.2.5">
   <diagram id="GraphRAG-Architecture" name="Page-1">
-    <mxGraphModel dx="2376" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,11 @@
             <mxPoint x="920" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kmpI20VmRrofcRxByPc9-39" value="用户提问+查询信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kmpI20VmRrofcRxByPc9-37">
+          <mxGeometry x="-0.1931" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="31" value="查询处理与&lt;br&gt;混合检索模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="130" width="180" height="70" as="geometry" />
         </mxCell>
@@ -101,13 +106,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="kmpI20VmRrofcRxByPc9-40" value="用户提问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e7">
+          <mxGeometry x="-0.2369" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontSize=16;" parent="1" source="32" target="33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="33" target="34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kss8qeXt84WnRkHjeRv3-34" value="&lt;b&gt;&lt;font&gt;用户查询&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="kss8qeXt84WnRkHjeRv3-34" value="&lt;b&gt;&lt;font&gt;用户&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1154" y="180" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kss8qeXt84WnRkHjeRv3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#D79B00;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="32" edge="1">
