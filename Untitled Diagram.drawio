@@ -1,63 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T05:52:15.909Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="cChKR1zvsEo5i3eqy1Ki" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.0">
   <diagram id="GgYWa46Ra1rYGhVXLGGG" name="Page-1">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-1" target="WpEk45ooDjIrtCg-i1qS-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="left_bg" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="现状：经验依赖，人工排查" vertex="1">
+          <mxGeometry height="520" width="300" x="20" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-1" target="WpEk45ooDjIrtCg-i1qS-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="left_1" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="人工登录服务器&#xa;手动排查链路" vertex="1">
+          <mxGeometry height="80" width="240" x="50" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-1" target="WpEk45ooDjIrtCg-i1qS-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="left_2" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="视频/OPC/数据库异常&#xa;依赖个人经验判断" vertex="1">
+          <mxGeometry height="80" width="240" x="50" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-1" target="WpEk45ooDjIrtCg-i1qS-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="left_3" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="实施无法独立处理&#xa;算法频繁介入" vertex="1">
+          <mxGeometry height="80" width="240" x="50" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-1" target="WpEk45ooDjIrtCg-i1qS-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mid_bg" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1;" value="链路调试与维护标准化体系" vertex="1">
+          <mxGeometry height="520" width="520" x="360" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;水产管理模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="339" y="60" width="150" height="30" as="geometry" />
+        <mxCell id="mid_net" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;" value="网络链路调试 / 维护&#xa;- 视频流连通性&#xa;- OPC Server 可达性" vertex="1">
+          <mxGeometry height="90" width="460" x="390" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-2" value="水产类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="210" y="130" width="30" height="130" as="geometry" />
+        <mxCell id="mid_data" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;" value="数据链路调试 / 维护&#xa;- Kafka 生产/消费&#xa;- MySQL 读写检测&#xa;- MES 接口校验" vertex="1">
+          <mxGeometry height="110" width="460" x="390" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-3" value="状态查看" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="300" y="130" width="30" height="130" as="geometry" />
+        <mxCell id="mid_std" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="标准化交付物&#xa;✓ SOP 操作手册&#xa;✓ Checklist 自检表&#xa;✓ 高频问题经验库" vertex="1">
+          <mxGeometry height="120" width="460" x="390" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-4" value="水产入库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="399" y="130" width="30" height="130" as="geometry" />
+        <mxCell id="right_bg" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="目标：实施可独立维护" vertex="1">
+          <mxGeometry height="520" width="300" x="920" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-5" value="水产出库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="500" y="130" width="30" height="130" as="geometry" />
+        <mxCell id="right_1" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="实施按文档自检&#xa;快速定位问题" vertex="1">
+          <mxGeometry height="80" width="240" x="950" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-6" target="WpEk45ooDjIrtCg-i1qS-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="605" y="270" />
-              <mxPoint x="565" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="WpEk45ooDjIrtCg-i1qS-6" target="WpEk45ooDjIrtCg-i1qS-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="605" y="270" />
-              <mxPoint x="645" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-6" value="人员管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="590" y="130" width="30" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-7" value="人员库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="550" y="290" width="30" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="WpEk45ooDjIrtCg-i1qS-8" value="更改密码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="630" y="290" width="30" height="130" as="geometry" />
+        <mxCell id="right_2" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="算法仅处理&#xa;复杂/异常问题" vertex="1">
+          <mxGeometry height="80" width="240" x="950" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
