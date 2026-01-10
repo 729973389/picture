@@ -4,51 +4,39 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-
         <mxCell id="2" value="传统 RAG（数据搬运工）" style="rounded=1;fillColor=#E0E0E0;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="20" width="500" height="50" as="geometry"/>
         </mxCell>
-
         <mxCell id="3" value="GraphRAG（专家级参谋）" style="rounded=1;fillColor=#D6E9FF;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="20" width="500" height="50" as="geometry"/>
         </mxCell>
-
         <mxCell id="4" value="用户提问：&#xa;当前水泥磨主电流情况如何？" style="rounded=1;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="500" height="60" as="geometry"/>
         </mxCell>
-
         <mxCell id="5" value="用户提问：&#xa;当前水泥磨主电流情况如何？" style="rounded=1;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="90" width="500" height="60" as="geometry"/>
         </mxCell>
-
         <mxCell id="6" value="系统动作（Black Box）&#xa;&#xa;时序数据库 / 日志&#xa;↓&#xa;向量检索&#xa;↓&#xa;LLM 字面分析" style="rounded=1;dashed=1;fillColor=#F5F5F5;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="170" width="500" height="150" as="geometry"/>
         </mxCell>
-
         <mxCell id="7" value="系统动作（White Box）&#xa;&#xa;① 实时数据 → 判定主电流偏低&#xa;&#xa;② 图谱因果推理：&#xa;主电流偏低 → 饱磨 / 易磨性差&#xa;→ 减少喂料 / 调整选粉机&#xa;→ 中控操作组 / 工艺科&#xa;&#xa;③ 知识融合 → LLM" style="rounded=1;fillColor=#EEF6FF;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="170" width="500" height="200" as="geometry"/>
         </mxCell>
-
         <mxCell id="8" value="模型回答：&#xa;&#xa;当前水泥磨主电流为 125A，&#xa;相比额定值偏低，&#xa;系统显示状态为“偏低”。" style="rounded=1;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="340" width="500" height="120" as="geometry"/>
         </mxCell>
-
         <mxCell id="9" value="模型回答：&#xa;&#xa;主电流 125A，异常偏低。&#xa;原因：饱磨 / 物料易磨性差。&#xa;措施：减少喂料，调整选粉机。&#xa;责任部门：中控操作组 / 工艺科。" style="rounded=1;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="500" height="140" as="geometry"/>
         </mxCell>
-
         <mxCell id="10" value="领导视角痛点：&#xa;🔴 只知道“是什么”&#xa;🔴 不知道“为什么”&#xa;🔴 无法指导行动&#xa;🔴 依赖人工经验" style="rounded=1;fillColor=#FFECEC;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="500" height="120" as="geometry"/>
         </mxCell>
-
         <mxCell id="11" value="领导视角价值：&#xa;🟢 因果闭环（Root Cause）&#xa;🟢 可执行 SOP 建议&#xa;🟢 权责清晰，自动指派" style="rounded=1;fillColor=#E8F8EE;align=left;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="550" width="500" height="120" as="geometry"/>
         </mxCell>
-
         <mxCell id="12" value="传统 RAG：回答“数据现象”    →    GraphRAG：输出“可执行的决策建议”" style="rounded=1;fillColor=#F0F0F0;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="700" width="800" height="50" as="geometry"/>
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
