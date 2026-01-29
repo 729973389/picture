@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
   <diagram name="维护流程-并行结构" id="0">
-    <mxGraphModel dx="5090" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3587" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
           <mxGeometry height="42.5" width="80" x="-750" y="887.5" as="geometry" />
         </mxCell>
         <mxCell id="3REIdDrMzfNp0zUPVS5A-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=25;" value="&lt;font&gt;（总计5h）&lt;/font&gt;" vertex="1">
-          <mxGeometry height="55" width="180" x="-110" y="110" as="geometry" />
+          <mxGeometry height="55" width="180" x="120" y="377.5" as="geometry" />
         </mxCell>
         <mxCell id="3REIdDrMzfNp0zUPVS5A-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;strokeColor=#FF0000;" value="" vertex="1">
           <mxGeometry height="410" width="440" x="-510" y="637.5" as="geometry" />
