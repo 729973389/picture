@@ -85,7 +85,7 @@
         <mxCell id="L-zliXKiZT_MZ6BOahBM-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="1~2 h---&amp;gt;几乎省略" vertex="1">
           <mxGeometry height="30" width="180" x="50" y="205" as="geometry" />
         </mxCell>
-        <mxCell id="L-zliXKiZT_MZ6BOahBM-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;3~4天 ---&amp;gt;1~2h&amp;nbsp;&lt;/font&gt;" vertex="1">
+        <mxCell id="L-zliXKiZT_MZ6BOahBM-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;3~4天 ---&amp;gt;1~2h （可同步进行）&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="220" x="-40" y="470" as="geometry" />
         </mxCell>
       </root>
