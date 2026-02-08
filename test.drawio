@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.8">
   <diagram name="第 1 页" id="PJCZLrSioKjo_P76e7ng">
-    <mxGraphModel>
+    <mxGraphModel dx="915" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ienfdCX37ioM8FgcUDKO-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="350" width="160" x="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="350" width="160" x="400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="360" width="160" x="660" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-16" edge="1" parent="1" source="ienfdCX37ioM8FgcUDKO-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ienfdCX37ioM8FgcUDKO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="部署算法环境和&lt;div&gt;数据库环境&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配位号" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-14" edge="1" parent="1" source="ienfdCX37ioM8FgcUDKO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ienfdCX37ioM8FgcUDKO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="装软件" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-17" edge="1" parent="1" source="ienfdCX37ioM8FgcUDKO-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ienfdCX37ioM8FgcUDKO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="部署龙葵系统和kafka" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="ienfdCX37ioM8FgcUDKO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="495" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
